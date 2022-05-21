@@ -26,4 +26,5 @@ para reiniciar el servicio sshd y aplicar los cambios.
 
 1. Ahora, algunos artículos pueden sugerir dirigirse al ~/.ssh/authorized_keys droplet desde la consola SSH del navegador, pero tiene un error que solo copia la clave SSH hasta ciertos caracteres, y debido a eso, no funcionará. Por lo tanto, no haremos este paso ahora .
 2. Como ha habilitado la autenticación de contraseña en el servidor, intente SSH desde el terminal, le pedirá la contraseña, después de lo cual debería poder conectarse. Bueno, problema resuelto, o al menos la mayor parte.
-3. Ahora vamos a editar el nano ~/.ssh/authorized_keysarchivo en el servidor, pegue su clave SSH aquí en una nueva línea (que generó en el Paso 1). Ahora puede reiniciar el servicio ssh nuevamente usando service sshd restart.
+3. Ahora vamos a editar el archivo **_authorized_key_** con el comando   **_nano ~/.ssh/authorized_keys_** en el servidor, pegue su clave SSH aquí en una nueva línea (que generó en el Paso 1). Ahora puede reiniciar el servicio ssh nuevamente usando **_service sshd restart_**.
+4. Pruebe SSH usando su terminal y debería poder conectarse sin ingresar la contraseña. Como es una buena práctica de seguridad deshabilitar el inicio de sesión basado en contraseña, diríjase a  **_sudo nano /etc/ssh/sshd_config_** nuevamente a su servidor y configure:
