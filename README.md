@@ -16,5 +16,7 @@ Tenga en cuenta que si la clave ya existe, no se copiará, por lo que puede omit
 Ahora intente conectarse a través de SSH, si funciona, tiene suerte. Si no funciona, para eso estás aquí.
 2. Dirígete al tablero de tu droplet y desde las opciones del lado izquierdo, selecciona Acceso > Acceso a la consola > Iniciar consola.
 Ingrese su nombre de usuario y contraseña para el droplet, y lo conectará al droplet a través de SSH (usando un navegador web).
-3. Deberá habilitar el inicio de sesión con contraseña en su droplet. Para hacerlo sudo nano /etc/ssh/sshd_config, desplácese hacia abajo y configúrelos enyes
+3. Deberá habilitar el inicio de sesión con contraseña en su droplet. Para hacerlo sudo nano /etc/ssh/sshd_config, desplácese hacia abajo y configúrelos en yes
+
+![Screenshot](Captura_2.png)
 
