@@ -20,3 +20,10 @@ Ingrese su nombre de usuario y contraseña para el droplet, y lo conectará al d
 
 ![Screenshot](Captura_2.png)
 
+Guarde el archivo y ejecute
+**_service sshd restart_**
+para reiniciar el servicio sshd y aplicar los cambios.
+
+1. Ahora, algunos artículos pueden sugerir dirigirse al ~/.ssh/authorized_keys droplet desde la consola SSH del navegador, pero tiene un error que solo copia la clave SSH hasta ciertos caracteres, y debido a eso, no funcionará. Por lo tanto, no haremos este paso ahora .
+2. Como ha habilitado la autenticación de contraseña en el servidor, intente SSH desde el terminal, le pedirá la contraseña, después de lo cual debería poder conectarse. Bueno, problema resuelto, o al menos la mayor parte.
+3. Ahora vamos a editar el nano ~/.ssh/authorized_keysarchivo en el servidor, pegue su clave SSH aquí en una nueva línea (que generó en el Paso 1). Ahora puede reiniciar el servicio ssh nuevamente usando service sshd restart.
