@@ -93,5 +93,9 @@ Notifica a systemd que existe un nuevo archivo de unidad:
 
 **_sudo systemctl daemon-reload_**
 
+Inicie el servicio Odoo y habilítelo para que se inicie en el inicio ejecutando:
+
+**_sudo systemctl enable --now odoo15_**
+
 
 
