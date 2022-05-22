@@ -87,5 +87,7 @@ Abra su editor de texto y cree un archivo con nombre odoo15.service con el sigui
 
 **_sudo nano /etc/systemd/system/odoo15.service_**
 
+![Screenshot](Captura_5.png)
+
 
 
