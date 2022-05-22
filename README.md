@@ -127,6 +127,8 @@ Verifique que el servicio esté en funcionamiento:
 
 Abra su navegador y escriba: http://<your_domain_or_IP_address>:8069
 
+## 7. Prueba la instalación
+
 Suponiendo que la instalación se haya realizado correctamente, aparecerá la pantalla inicial para la creacion de la base de datos
 
 
