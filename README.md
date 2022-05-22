@@ -5,11 +5,11 @@ El primer paso es instalar Git , Pip , Node.js y las herramientas necesarias par
 
 **_sudo apt update_**
 
-**_sudo apt install git python3-pip build-essential wget python3-dev python3-venv \
-    python3-wheel libfreetype6-dev libxml2-dev libzip-dev libldap2-dev libsasl2-dev \
-    python3-setuptools node-less libjpeg-dev zlib1g-dev libpq-dev \
-    libxslt1-dev libldap2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev \
-    liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev_**
+sudo apt install git python3-pip build-essential wget python3-dev python3-venv \\  
+    python3-wheel libfreetype6-dev libxml2-dev libzip-dev libldap2-dev libsasl2-dev \\  
+    python3-setuptools node-less libjpeg-dev zlib1g-dev libpq-dev \\  
+    libxslt1-dev libldap2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev \\  
+    liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev
     
 ## 2. Crea un usuario del sistema
 Ejecutar Odoo como root presenta un gran riesgo de seguridad. Crearemos un nuevo usuario y grupo del sistema con el directorio de inicio /opt/odoo15 que ejecutará el servicio Odoo. Para hacer esto, ejecute el siguiente comando:
