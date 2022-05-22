@@ -77,3 +77,5 @@ Cree un archivo de configuración con el siguiente contenido:
 **_sudo nano /etc/odoo15.conf_**
 
 ![Screenshot](Captura_4.png)
+
+No olvide cambiarse my_admin_passwd a algo más seguro.
