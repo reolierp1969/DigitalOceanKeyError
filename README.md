@@ -76,9 +76,16 @@ Cree un archivo de configuración con el siguiente contenido:
 
 **_sudo nano /etc/odoo15.conf_**
 
-![Screenshot](Captura_4.png)
+**[options]  
+; This is the password that allows database operations:  
+admin_passwd = my_admin_passwd  
+db_host = False  
+db_port = False  
+db_user = odoo15  
+db_password = my_admin_passwd  
+addons_path = /opt/odoo15/odoo/addons,/opt/odoo15/odoo-custom-addons**  
 
-No olvide cambiarse my_admin_passwd a algo más seguro.
+No olvide que debe cambiarse my_admin_passwd a algo más seguro en admin_passwd y db_password.  Estas contraseñas deben ser iguales.
 
 ## 6. Cree el archivo de la unidad Systemd
 Un archivo de unidad es un archivo de configuración de estilo ini que contiene información sobre un servicio.
