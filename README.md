@@ -71,3 +71,7 @@ Luego agregaremos este directorio al parámetro addons_path. Este parámetro def
 Regrese a su usuario de sudo:
 
 **_exit_**
+
+Cree un archivo de configuración con el siguiente contenido:
+
+**_sudo nano /etc/odoo15.conf_**
