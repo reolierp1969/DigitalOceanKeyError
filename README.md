@@ -42,3 +42,19 @@ Clona el código fuente de Odoo 15 desde GitHub:
 
 **_git clone https://www.github.com/odoo/odoo --depth 1 --branch 15.0 /opt/odoo15/odoo_**
 
+Cree un nuevo entorno virtual de Python para Odoo:
+
+**_cd /opt/odoo15_**
+
+**_python3 -m venv odoo-venv_**
+
+Activar el entorno virtual:
+
+**_source odoo-venv/bin/activate_**
+
+Las dependencias de Odoo se especifican en el archivo require.txt. Instale todos los módulos de Python necesarios con pip3:
+
+**_pip3 install wheel_**
+
+**_pip3 install -r odoo/requirements.txt_**
+
