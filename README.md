@@ -38,3 +38,7 @@ Primero, cambie al usuario "odoo15":
 
 **_sudo su - odoo15_**
 
+Clona el código fuente de Odoo 15 desde GitHub:
+
+**_git clone https://www.github.com/odoo/odoo --depth 1 --branch 15.0 /opt/odoo15/odoo_**
+
