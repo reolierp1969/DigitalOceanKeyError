@@ -94,7 +94,23 @@ Abra su editor de texto y cree un archivo con nombre odoo15.service con el sigui
 
 **_sudo nano /etc/systemd/system/odoo15.service_**
 
-![Screenshot](Captura_5.png)
+**[Unit]  
+Description=Odoo15  
+Requires=postgresql.service  
+After=network.target postgresql.service**  
+  
+**[Service]  
+Type=simple  
+SyslogIdentifier=odoo15  
+PermissionsStartOnly=true  
+User=odoo15  
+Group=odoo15  
+ExecStart=/opt/odoo15/odoo-venv/bin/python3 /opt/odoo15/odoo/odoo-bin -c /etc/odoo15.conf  
+StandardOutput=journal+console**  
+  
+**[Install]  
+WantedBy=multi-user.target** 
+
 
 Notifica a systemd que existe un nuevo archivo de unidad:
 
