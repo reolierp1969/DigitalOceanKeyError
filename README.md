@@ -81,3 +81,6 @@ Cree un archivo de configuración con el siguiente contenido:
 No olvide cambiarse my_admin_passwd a algo más seguro.
 
 ## 6. Cree el archivo de la unidad Systemd
+Un archivo de unidad es un archivo de configuración de estilo ini que contiene información sobre un servicio.
+
+Abra su editor de texto y cree un archivo odoo15.servicecon nombre con el siguiente contenido:
