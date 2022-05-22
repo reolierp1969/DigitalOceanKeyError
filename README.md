@@ -89,5 +89,9 @@ Abra su editor de texto y cree un archivo con nombre odoo15.service con el sigui
 
 ![Screenshot](Captura_5.png)
 
+Notifica a systemd que existe un nuevo archivo de unidad:
+
+**_sudo systemctl daemon-reload_**
+
 
 
