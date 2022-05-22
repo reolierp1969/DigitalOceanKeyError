@@ -97,5 +97,14 @@ Inicie el servicio Odoo y habilítelo para que se inicie en el inicio ejecutando
 
 **_sudo systemctl enable --now odoo15_**
 
+Verifique que el servicio esté en funcionamiento:
+
+**_sudo systemctl status odoo15_**
+
+Abra su navegador y escriba: http://<your_domain_or_IP_address>:8069
+
+Suponiendo que la instalación se haya realizado correctamente, aparecerá una pantalla similar a la siguiente:
+
+
 
 
