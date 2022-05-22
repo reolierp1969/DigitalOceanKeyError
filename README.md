@@ -58,3 +58,7 @@ Las dependencias de Odoo se especifican en el archivo require.txt. Instale todos
 
 **_pip3 install -r odoo/requirements.txt_**
 
+Una vez hecho esto, desactive el entorno escribiendo:
+
+**_deactivate_**
+
