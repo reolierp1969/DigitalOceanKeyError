@@ -30,7 +30,8 @@ Una vez que el servicio esté instalado, cree un usuario de PostgreSQL con el mi
 ## 4. Instalar wkhtmltopdf
 wkhtmltopdf es un conjunto de herramientas de línea de comandos de código abierto para renderizar páginas HTML en PDF y varios formatos de imagen. Para imprimir informes PDF en Odoo, deberá instalar el paquete wkhtmltox.
 
-La versión de wkhtmltopdf incluida en los repositorios de Ubuntu no admite encabezados ni pies de página. La versión recomendada para Odoo es 0.12.5. Descargaremos e instalaremos el paquete desde Github:
+**_wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb  
+sudo apt install ./wkhtmltox_0.12.6-1.focal_amd64.deb_**
 
 ## 5. Instalar y configurar Odoo 15
 Instalaremos Odoo desde la fuente dentro de un entorno virtual de Python aislado.
